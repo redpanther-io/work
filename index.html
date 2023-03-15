@@ -1,9 +1,0 @@
-<script>
-  // Function to send a message to the iframe
-  function sendMessageToIframe(message) {
-    document.getElementById("myIframe").contentWindow.postMessage(message, "*");
-  }
-
-  // Example: Send a message to the iframe when the page loads
-  sendMessageToIframe({ type: "pageLoad" });
-</script>
