@@ -1,18 +1,27 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
-  <tab name="main" type="MainTab" active="true" scrollx="44.71881700828885" scrolly="2.510203985778844" scale="0.8163265306122448">
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="3A|j9F/UI.c`{oPu0*R$" x="210" y="330">
+  <tab name="init" type="InitTab" active="false" scrollx="20" scrolly="20.000000000000114" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="Y.fNrnX~|MBT[QtogOq*" x="230" y="50">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="7l.,(uYgZl.LK,}ZX}3X" x="230" y="250"></block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="-6.8127954146234515" scrolly="-22.27513100238974" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="wou#~*3p~z+HH-9VP|[I" x="210" y="330">
       <field name="EVENT">click</field>
       <field name="PARENT">TRUE</field>
       <value name="ID">
-        <shadow type="text" id="Il/}/BwO*K~8#_2tsrdK">
+        <shadow type="text" id="Ya$[=o6h3v{c|@ZYyHWV">
           <field name="TEXT">test-button</field>
         </shadow>
       </value>
       <statement name="DO">
-        <block type="hide" id="t2rwacE/r$^FuT]sN:LS">
+        <block type="hide" id="{Fid;9_)kY`bYHt314?w">
           <value name="VALUE">
-            <shadow type="objectList" id="E=,B^hjg*jcwwn_(]%5j">
+            <shadow type="objectList" id="V,ukHAg(1J;izPPl[_2I">
               <field name="FIELDNAME">Cube</field>
             </shadow>
           </value>
@@ -20,5 +29,5 @@
       </statement>
     </block>
   </tab>
-  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1134" viewport-y="28" viewport-w="768" viewport-h="484.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
